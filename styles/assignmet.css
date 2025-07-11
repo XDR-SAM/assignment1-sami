@@ -5,6 +5,8 @@
     font-size: 34px;
 }
 
+
+
 .btn-primary {
     background-color: #4F46E5;
     color: #fff;
@@ -15,7 +17,15 @@
     border-radius: 6px;
     border: none;
     
+    
 }
+
+.btn-primary:hover {
+    background-color: #e655a5; 
+    cursor: pointer;
+}
+
+
 
 .text-center {
     text-align: center;
@@ -50,17 +60,7 @@ body {
     color: #4F46E5;
 }
 
-.btn-signup {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    padding: 12px 28px;
-    background-color: #4F46E5;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
+
 
 .hero-content {
     text-align: center;
@@ -257,9 +257,6 @@ body {
     color: #B3B3B3;
     margin: 0;
 }
-
-
-
 
 /* Contact form section styles */
 .contact {
