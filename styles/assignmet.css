@@ -21,6 +21,11 @@
     text-align: center;
 }
 
+body {
+    background-color: #f5f7ff;
+    margin: 0;
+    padding: 0;
+}
 
 /* Hero section styles */
 .hero {
@@ -160,4 +165,237 @@
 }
 
 
+/* Reviews section styles */
+.reviews {
+    padding: 100px;
+    margin: 100px 141px 100px 159px;
+}
+
+.reviews-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reviews-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.review-card {
+    width: 366px;
+    height: 243px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 14px; 
+    border: 3px solid #fcf1ec;
+}
+
+
+.review-stars{
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.review-stars img{
+    width: 16px;
+    height: 16px;
+}
+
+.review-heading{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.review-text{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviewer-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.reviewer-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+    margin: 0;
+}
+
+.reviewer-date {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B3B3B3;
+    margin: 0;
+}
+
+
+
+
+/* Contact form section styles */
+.contact {
+    margin: 90px auto 14px auto; 
+    width: 1140px;
+    height: 632px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 80px;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-title-section {
+    line-height: 0.9;
+}
+
+.contact-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 97px;
+    color: #000;
+    margin: 0;
+    line-height: 0.9;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 16px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.form-input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 16px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.form-textarea::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-form .btn-primary {
+    width: 100%;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+/* Footer section styles */
+.footer {
+    width: 100%; 
+    height: 428px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.footer-container {
+    text-align: center;
+    max-width: 800px;
+}
+
+.footer-logo {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin: 0 0 40px 0;
+}
+
+.footer-description {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+    line-height: 1.5;
+    margin: 0 0 40px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+    text-decoration: none;
+}
 
